@@ -20,7 +20,6 @@ my_screen.onkey(key="Left",fun=serpent.left)
 my_screen.onkey(key="Right",fun=serpent.right)
 
 is_game_on=True
-current_position=(0,0)
 while is_game_on:
     my_score.scoreboard()
     my_screen.update()
